@@ -104,41 +104,9 @@
     "plans": {
       "type": [
         "null",
-        "array",
-        "string"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "object"
-        ],
-        "properties": {
-          "id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "object": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "code": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "name": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        }
-      }
+        "string",
+        "array"
+      ]
     },
     "redemption_resource": {
       "type": [
