@@ -94,13 +94,6 @@
         "boolean"
       ]
     },
-    "plans_names": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {}
-    },
     "plans": {
       "type": [
         "null",

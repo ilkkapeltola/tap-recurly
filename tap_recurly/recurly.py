@@ -20,13 +20,13 @@ logger = logging.getLogger()
 class Recurly(object):
 
   def __init__(self, subdomain, api_key, start_date=None, user_agent=None, quota_limit=100):
-    self.headers = {'Accept': 'application/vnd.recurly.v2018-08-09'}
+    self.headers = {'Accept': 'application/vnd.recurly.v2021-02-25'}
     self.site_id = "subdomain-{subdomain}".format(subdomain=subdomain)
     self.user_agent = user_agent
     self.start_date = start_date
     self.limit = 200
     self.api_key = api_key
-    self.uri = "https://partner-api.recurly.com/"
+    self.uri = "https://v3.recurly.com/"
     self.quota_limit = int(quota_limit)
 
 

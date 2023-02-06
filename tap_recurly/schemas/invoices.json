@@ -308,33 +308,51 @@
     "line_items": {
       "type": [
         "null",
-        "object"
+        "array"
       ],
-      "properties": {
-        "object": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "has_more": {
-          "type": [
-            "null",
-            "boolean"
-          ]
-        },
-        "next": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "data": {
-          "type": [
-            "null",
-            "array"
-          ],
-          "items": {
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "object": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "uuid": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "state": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "legacy_category": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "account": {
             "type": [
               "null",
               "object"
@@ -346,439 +364,395 @@
                   "string"
                 ]
               },
+              "bill_to": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "parent_account_id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
               "object": {
                 "type": [
                   "null",
                   "string"
                 ]
               },
-              "uuid": {
+              "code": {
                 "type": [
                   "null",
                   "string"
                 ]
               },
+              "email": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "first_name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "last_name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "company": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          },
+          "shipping_addresses": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "account_id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "nickname": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "first_name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "last_name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "company": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "email": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "vat_number": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "phone": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "street1": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "street2": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "city": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "region": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "postal_code": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "country": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "created_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "updated_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                }
+              }
+            }
+          },
+          "subscription_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "plan_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "plan_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "add_on_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "add_on_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "invoice_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "invoice_number": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "previous_line_item_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "original_line_item_invoice_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "origin": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "accounting_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "product_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "credit_reason_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "currency": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "amount": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "description": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "quantity": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_amount": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "subtotal": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "discount": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "tax": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "taxable": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "tax_exempt": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "tax_code": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "tax_info": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
               "type": {
                 "type": [
                   "null",
                   "string"
                 ]
               },
-              "state": {
+              "region": {
                 "type": [
                   "null",
                   "string"
                 ]
               },
-              "legacy_category": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "account": {
-                "type": [
-                  "null",
-                  "object"
-                ],
-                "properties": {
-                  "id": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "bill_to": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "parent_account_id": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "object": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "code": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "email": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "first_name": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "last_name": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "company": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  }
-                }
-              },
-              "shipping_addresses": {
-                "type": [
-                  "null",
-                  "array"
-                ],
-                "items": {
-                  "type": [
-                    "null",
-                    "object"
-                  ],
-                  "properties": {
-                    "id": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "account_id": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "nickname": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "first_name": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "last_name": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "company": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "email": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "vat_number": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "phone": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "street1": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "street2": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "city": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "region": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "postal_code": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "country": {
-                      "type": [
-                        "null",
-                        "string"
-                      ]
-                    },
-                    "created_at": {
-                      "type": [
-                        "null",
-                        "string"
-                      ],
-                      "format": "date-time"
-                    },
-                    "updated_at": {
-                      "type": [
-                        "null",
-                        "string"
-                      ],
-                      "format": "date-time"
-                    }
-                  }
-                }
-              },
-              "subscription_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "plan_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "plan_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "add_on_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "add_on_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "invoice_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "invoice_number": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "previous_line_item_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "original_line_item_invoice_id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "origin": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "accounting_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "product_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "credit_reason_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "currency": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "amount": {
+              "rate": {
                 "type": [
                   "null",
                   "number"
                 ]
-              },
-              "description": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "quantity": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "unit_amount": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "subtotal": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "discount": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "tax": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "taxable": {
-                "type": [
-                  "null",
-                  "boolean"
-                ]
-              },
-              "tax_exempt": {
-                "type": [
-                  "null",
-                  "boolean"
-                ]
-              },
-              "tax_code": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "tax_info": {
-                "type": [
-                  "null",
-                  "object"
-                ],
-                "properties": {
-                  "type": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "region": {
-                    "type": [
-                      "null",
-                      "string"
-                    ]
-                  },
-                  "rate": {
-                    "type": [
-                      "null",
-                      "number"
-                    ]
-                  }
-                }
-              },
-              "proration_rate": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "refund": {
-                "type": [
-                  "null",
-                  "boolean"
-                ]
-              },
-              "refunded_quantity": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "credit_applied": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              },
-              "start_date": {
-                "type": [
-                  "null",
-                  "string"
-                ],
-                "format": "date-time"
-              },
-              "end_date": {
-                "type": [
-                  "null",
-                  "string"
-                ],
-                "format": "date-time"
-              },
-              "created_at": {
-                "type": [
-                  "null",
-                  "string"
-                ],
-                "format": "date-time"
-              },
-              "updated_at": {
-                "type": [
-                  "null",
-                  "string"
-                ],
-                "format": "date-time"
               }
             }
+          },
+          "proration_rate": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "refund": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "refunded_quantity": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "credit_applied": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "start_date": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "end_date": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "created_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "date-time"
           }
         }
       }
