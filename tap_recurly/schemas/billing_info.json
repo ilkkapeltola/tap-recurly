@@ -22,6 +22,18 @@
         "string"
       ]
     },
+    "primary_payment_method": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "backup_payment_method": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
     "first_name": {
       "type": [
         "null",
@@ -36,40 +48,7 @@
     },
     "company": {
       "type": [
-        "null",
-        "string"
-      ]
-    },
-    "custom_fields": {
-      "type": [
-        "null",
-        "array"
-      ],
-      "items": {
-        "type": [
-          "null",
-          "object"
-        ],
-        "properties": {
-          "name": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "value": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        }
-      }
-    },
-    "exemption_certificate": {
-      "type": [
-        "null",
-        "string"
+        "null"
       ]
     },
     "address": {
@@ -78,24 +57,6 @@
         "object"
       ],
       "properties": {
-        "first_name": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "last_name": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "phone": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
         "street1": {
           "type": [
             "null",
@@ -131,13 +92,17 @@
             "null",
             "string"
           ]
+        },
+        "phone": {
+          "type": [
+            "null"
+          ]
         }
       }
     },
     "vat_number": {
       "type": [
-        "null",
-        "string"
+        "null"
       ]
     },
     "valid": {
@@ -176,31 +141,30 @@
             "string"
           ]
         },
+        "cc_bin_country": {
+          "type": [
+            "null"
+          ]
+        },
         "exp_month": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "exp_year": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "account_type": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "routing_number": {
           "type": [
             "null",
             "integer"
           ]
         },
-        "routing_number_bank": {
+        "exp_year": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "gateway_token": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "gateway_code": {
           "type": [
             "null",
             "string"
@@ -210,44 +174,20 @@
     },
     "fraud": {
       "type": [
-        "null",
-        "object"
-      ],
-      "properties": {
-        "score": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "decision": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "risk_rules_triggered": {
-          "type": [
-            "null",
-            "object"
-          ],
-          "properties": {}
-        }
-      }
+        "null"
+      ]
     },
     "created_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_by": {
       "type": [

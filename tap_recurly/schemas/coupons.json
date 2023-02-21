@@ -37,19 +37,13 @@
     "max_redemptions": {
       "type": [
         "null",
-        "number"
+        "integer"
       ]
     },
     "max_redemptions_per_account": {
       "type": [
         "null",
-        "number"
-      ]
-    },
-    "unique_coupon_codes_count": {
-      "type": [
-        "null",
-        "number"
+        "integer"
       ]
     },
     "duration": {
@@ -58,31 +52,25 @@
         "string"
       ]
     },
-    "temporal_amount": {
-      "type": [
-        "null",
-        "number"
-      ]
-    },
     "temporal_unit": {
       "type": [
         "null",
         "string"
       ]
     },
-    "free_trial_unit": {
+    "temporal_amount": {
       "type": [
         "null",
-        "string"
-      ]
-    },
-    "free_trial_amount": {
-      "type": [
-        "null",
-        "number"
+        "integer"
       ]
     },
     "applies_to_all_plans": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "applies_to_all_items": {
       "type": [
         "null",
         "boolean"
@@ -94,11 +82,96 @@
         "boolean"
       ]
     },
+    "redemption_resource": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "discount": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "currencies": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "currency": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "amount": {
+                "type": [
+                  "null",
+                  "number"
+                ]
+              }
+            }
+          }
+        },
+        "percent": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        }
+      }
+    },
+    "coupon_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "hosted_page_description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoice_description": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "unique_coupon_codes_count": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "unique_code_template": {
+      "type": [
+        "null"
+      ]
+    },
+    "unique_coupon_code": {
+      "type": [
+        "null"
+      ]
+    },
     "plans": {
       "type": [
         "null",
-        "array",
-        "string"
+        "array"
       ],
       "items": {
         "type": [
@@ -133,123 +206,34 @@
         }
       }
     },
-    "redemption_resource": {
+    "items": {
       "type": [
-        "null",
-        "string"
-      ]
-    },
-    "discount": {
-      "type": [
-        "null",
-        "object"
-      ],
-      "properties": {
-        "type": {
-          "type": [
-            "null",
-            "string"
-          ]
-        },
-        "percent": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
-        "currencies": {
-          "type": [
-            "null",
-            "array"
-          ],
-          "items": {
-            "type": [
-              "null",
-              "object"
-            ],
-            "properties": {
-              "currency": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              },
-              "amount": {
-                "type": [
-                  "null",
-                  "number"
-                ]
-              }
-            }
-          }
-        },
-        "trial": {
-          "type": [
-            "null",
-            "object"
-          ],
-          "properties": {
-            "unit": {
-              "type": [
-                "null",
-                "string"
-              ]
-            },
-            "length": {
-              "type": [
-                "null",
-                "number"
-              ]
-            }
-          }
-        }
-      }
-    },
-    "coupon_type": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "hosted_page_description": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "invoice_description": {
-      "type": [
-        "null",
-        "string"
+        "null"
       ]
     },
     "redeem_by": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "created_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "expired_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     }
   }
 }

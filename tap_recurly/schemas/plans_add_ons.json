@@ -40,13 +40,25 @@
         "string"
       ]
     },
-    "accounting_code": {
+    "add_on_type": {
       "type": [
         "null",
         "string"
       ]
     },
-    "tax_code": {
+    "usage_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "usage_percentage": {
+      "type": [
+        "null",
+        "number"
+      ]
+    },
+    "measured_unit_id": {
       "type": [
         "null",
         "string"
@@ -61,7 +73,31 @@
     "default_quantity": {
       "type": [
         "null",
-        "number"
+        "integer"
+      ]
+    },
+    "accounting_code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "tax_code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "revenue_schedule_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "optional": {
+      "type": [
+        "null",
+        "boolean"
       ]
     },
     "currencies": {
@@ -88,34 +124,57 @@
             ]
           },
           "unit_amount_decimal": {
-            "type":[
-              "null",
-              "string"
+            "type": [
+              "null"
             ]
           }
         }
       }
     },
+    "usage_timeframe": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "usage_calculation_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "tier_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "item": {
+      "type": [
+        "null"
+      ]
+    },
+    "external_sku": {
+      "type": [
+        "null"
+      ]
+    },
     "created_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "deleted_at": {
       "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
+        "null"
+      ]
     }
   }
 }

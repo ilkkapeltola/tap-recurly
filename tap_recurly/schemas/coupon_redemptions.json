@@ -16,18 +16,6 @@
         "string"
       ]
     },
-    "account_id": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
-    "unique_code_template": {
-      "type": [
-        "null",
-        "string"
-      ]
-    },
     "account": {
       "type": [
         "null",
@@ -72,14 +60,12 @@
         },
         "company": {
           "type": [
-            "null",
-            "string"
+            "null"
           ]
         },
         "parent_account_id": {
           "type": [
-            "null",
-            "string"
+            "null"
           ]
         },
         "bill_to": {
@@ -87,8 +73,18 @@
             "null",
             "string"
           ]
+        },
+        "dunning_campaign_id": {
+          "type": [
+            "null"
+          ]
         }
       }
+    },
+    "subscription_id": {
+      "type": [
+        "null"
+      ]
     },
     "coupon": {
       "type": [
@@ -129,19 +125,13 @@
         "max_redemptions": {
           "type": [
             "null",
-            "number"
+            "integer"
           ]
         },
         "max_redemptions_per_account": {
           "type": [
             "null",
-            "number"
-          ]
-        },
-        "unique_coupon_codes_count": {
-          "type": [
-            "null",
-            "number"
+            "integer"
           ]
         },
         "duration": {
@@ -150,31 +140,25 @@
             "string"
           ]
         },
-        "temporal_amount": {
-          "type": [
-            "null",
-            "number"
-          ]
-        },
         "temporal_unit": {
           "type": [
             "null",
             "string"
           ]
         },
-        "free_trial_unit": {
+        "temporal_amount": {
           "type": [
             "null",
-            "string"
-          ]
-        },
-        "free_trial_amount": {
-          "type": [
-            "null",
-            "number"
+            "integer"
           ]
         },
         "applies_to_all_plans": {
+          "type": [
+            "null",
+            "boolean"
+          ]
+        },
+        "applies_to_all_items": {
           "type": [
             "null",
             "boolean"
@@ -184,19 +168,6 @@
           "type": [
             "null",
             "boolean"
-          ]
-        },
-        "plans_names": {
-          "type": [
-            "null",
-            "array"
-          ],
-          "items": {}
-        },
-        "plans": {
-          "type": [
-            "null",
-            "string"
           ]
         },
         "redemption_resource": {
@@ -220,7 +191,7 @@
             "percent": {
               "type": [
                 "null",
-                "number"
+                "integer"
               ]
             },
             "currencies": {
@@ -248,26 +219,6 @@
                   }
                 }
               }
-            },
-            "trial": {
-              "type": [
-                "null",
-                "object"
-              ],
-              "properties": {
-                "unit": {
-                  "type": [
-                    "null",
-                    "string"
-                  ]
-                },
-                "length": {
-                  "type": [
-                    "null",
-                    "number"
-                  ]
-                }
-              }
             }
           }
         },
@@ -289,33 +240,88 @@
             "string"
           ]
         },
+        "unique_coupon_codes_count": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "unique_code_template": {
+          "type": [
+            "null"
+          ]
+        },
+        "unique_coupon_code": {
+          "type": [
+            "null"
+          ]
+        },
+        "plans": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "object": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "code": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        },
+        "items": {
+          "type": [
+            "null"
+          ]
+        },
         "redeem_by": {
           "type": [
             "null",
             "string"
-          ],
-          "format": "date-time"
+          ]
         },
         "created_at": {
           "type": [
             "null",
             "string"
-          ],
-          "format": "date-time"
+          ]
         },
         "updated_at": {
           "type": [
             "null",
             "string"
-          ],
-          "format": "date-time"
+          ]
         },
         "expired_at": {
           "type": [
             "null",
             "string"
-          ],
-          "format": "date-time"
+          ]
         }
       }
     },
@@ -334,29 +340,25 @@
     "discounted": {
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "created_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "removed_at": {
       "type": [
-        "null",
-        "string"
-      ],
-      "format": "date-time"
+        "null"
+      ]
     }
   }
 }

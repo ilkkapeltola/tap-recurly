@@ -49,7 +49,7 @@
     "interval_length": {
       "type": [
         "null",
-        "number"
+        "integer"
       ]
     },
     "trial_unit": {
@@ -61,13 +61,31 @@
     "trial_length": {
       "type": [
         "null",
-        "number"
+        "integer"
+      ]
+    },
+    "trial_requires_billing_info": {
+      "type": [
+        "null",
+        "boolean"
       ]
     },
     "total_billing_cycles": {
       "type": [
         "null",
-        "number"
+        "integer"
+      ]
+    },
+    "revenue_schedule_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "setup_fee_revenue_schedule_type": {
+      "type": [
+        "null",
+        "string"
       ]
     },
     "auto_renew": {
@@ -132,6 +150,12 @@
         }
       }
     },
+    "allow_any_item_on_subscriptions": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
     "hosted_pages": {
       "type": [
         "null",
@@ -140,14 +164,12 @@
       "properties": {
         "success_url": {
           "type": [
-            "null",
-            "string"
+            "null"
           ]
         },
         "cancel_url": {
           "type": [
-            "null",
-            "string"
+            "null"
           ]
         },
         "bypass_confirmation": {
@@ -168,22 +190,29 @@
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "updated_at": {
       "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     },
     "deleted_at": {
       "type": [
+        "null"
+      ]
+    },
+    "dunning_campaign_id": {
+      "type": [
+        "null"
+      ]
+    },
+    "pricing_model": {
+      "type": [
         "null",
         "string"
-      ],
-      "format": "date-time"
+      ]
     }
   }
 }
