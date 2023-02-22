@@ -70,29 +70,17 @@
             "string"
           ]
         },
-        "parent_account_id": {
-          "type": [
-            "null"
-          ]
-        },
+        "parent_account_id": {},
         "bill_to": {
           "type": [
             "null",
             "string"
           ]
         },
-        "dunning_campaign_id": {
-          "type": [
-            "null"
-          ]
-        }
+        "dunning_campaign_id": {}
       }
     },
-    "billing_info_id": {
-      "type": [
-        "null"
-      ]
-    },
+    "billing_info_id": {},
     "active_invoice_id": {
       "type": [
         "null",
@@ -149,16 +137,8 @@
             "string"
           ]
         },
-        "address": {
-          "type": [
-            "null"
-          ]
-        },
-        "method": {
-          "type": [
-            "null"
-          ]
-        },
+        "address": {},
+        "method": {},
         "amount": {
           "type": [
             "null",
@@ -339,8 +319,10 @@
         },
         "ramp_intervals": {
           "type": [
-            "null"
-          ]
+            "null",
+            "array"
+          ],
+          "items": {}
         },
         "unit_amount": {
           "type": [
@@ -354,11 +336,7 @@
             "string"
           ]
         },
-        "custom_fields": {
-          "type": [
-            "null"
-          ]
-        },
+        "custom_fields": {},
         "quantity": {
           "type": [
             "null",
@@ -377,16 +355,8 @@
                 "string"
               ]
             },
-            "address": {
-              "type": [
-                "null"
-              ]
-            },
-            "method": {
-              "type": [
-                "null"
-              ]
-            },
+            "address": {},
+            "method": {},
             "amount": {
               "type": [
                 "null",
@@ -419,11 +389,7 @@
                 "string"
               ]
             },
-            "charge_invoice": {
-              "type": [
-                "null"
-              ]
-            }
+            "charge_invoice": {}
           }
         },
         "created_at": {
@@ -438,12 +404,17 @@
             "string"
           ]
         },
-        "deleted_at": {
-          "type": [
-            "null"
-          ]
-        }
+        "deleted_at": {},
+        "add_ons": {},
+        "invoice_collection": {}
       }
+    },
+    "ramp_intervals": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {}
     },
     "current_period_started_at": {
       "type": [
@@ -469,16 +440,8 @@
         "string"
       ]
     },
-    "trial_started_at": {
-      "type": [
-        "null"
-      ]
-    },
-    "trial_ends_at": {
-      "type": [
-        "null"
-      ]
-    },
+    "trial_started_at": {},
+    "trial_ends_at": {},
     "remaining_billing_cycles": {
       "type": [
         "null",
@@ -509,27 +472,15 @@
         "boolean"
       ]
     },
-    "paused_at": {
-      "type": [
-        "null"
-      ]
-    },
-    "remaining_pause_cycles": {
-      "type": [
-        "null"
-      ]
-    },
+    "paused_at": {},
+    "remaining_pause_cycles": {},
     "currency": {
       "type": [
         "null",
         "string"
       ]
     },
-    "tax_inclusive": {
-      "type": [
-        "null"
-      ]
-    },
+    "tax_inclusive": {},
     "unit_amount": {
       "type": [
         "null",
@@ -590,27 +541,15 @@
         "string"
       ]
     },
-    "bank_account_authorized_at": {
-      "type": [
-        "null"
-      ]
-    },
-    "gateway_code": {
-      "type": [
-        "null"
-      ]
-    },
+    "bank_account_authorized_at": {},
+    "gateway_code": {},
     "started_with_gift": {
       "type": [
         "null",
         "boolean"
       ]
     },
-    "converted_at": {
-      "type": [
-        "null"
-      ]
-    },
+    "converted_at": {},
     "created_at": {
       "type": [
         "null",
@@ -640,6 +579,13 @@
         "null",
         "string"
       ]
+    },
+    "custom_fields": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {}
     },
     "tax": {
       "type": [
@@ -756,16 +702,8 @@
                   "string"
                 ]
               },
-              "item_id": {
-                "type": [
-                  "null"
-                ]
-              },
-              "external_sku": {
-                "type": [
-                  "null"
-                ]
-              },
+              "item_id": {},
+              "external_sku": {},
               "accounting_code": {
                 "type": [
                   "null",
@@ -792,11 +730,7 @@
               "number"
             ]
           },
-          "unit_amount_decimal": {
-            "type": [
-              "null"
-            ]
-          },
+          "unit_amount_decimal": {},
           "usage_percentage": {
             "type": [
               "null",
@@ -841,9 +775,12 @@
           },
           "expired_at": {
             "type": [
-              "null"
+              "null",
+              "string"
             ]
-          }
+          },
+          "percentage_tiers": {},
+          "tiers": {}
         }
       }
     }

@@ -34,11 +34,7 @@
         "string"
       ]
     },
-    "legacy_category": {
-      "type": [
-        "null"
-      ]
-    },
+    "legacy_category": {},
     "account": {
       "type": [
         "null",
@@ -87,22 +83,14 @@
             "string"
           ]
         },
-        "parent_account_id": {
-          "type": [
-            "null"
-          ]
-        },
+        "parent_account_id": {},
         "bill_to": {
           "type": [
             "null",
             "string"
           ]
         },
-        "dunning_campaign_id": {
-          "type": [
-            "null"
-          ]
-        }
+        "dunning_campaign_id": {}
       }
     },
     "bill_for_account_id": {
@@ -219,11 +207,7 @@
         "number"
       ]
     },
-    "unit_amount_decimal": {
-      "type": [
-        "null"
-      ]
-    },
+    "unit_amount_decimal": {},
     "subtotal": {
       "type": [
         "null",
@@ -310,26 +294,10 @@
         "number"
       ]
     },
-    "shipping_address": {
-      "type": [
-        "null"
-      ]
-    },
-    "item_code": {
-      "type": [
-        "null"
-      ]
-    },
-    "item_id": {
-      "type": [
-        "null"
-      ]
-    },
-    "external_sku": {
-      "type": [
-        "null"
-      ]
-    },
+    "shipping_address": {},
+    "item_code": {},
+    "item_id": {},
+    "external_sku": {},
     "revenue_schedule_type": {
       "type": [
         "null",

@@ -64,27 +64,15 @@
             "string"
           ]
         },
-        "company": {
-          "type": [
-            "null"
-          ]
-        },
-        "parent_account_id": {
-          "type": [
-            "null"
-          ]
-        },
+        "company": {},
+        "parent_account_id": {},
         "bill_to": {
           "type": [
             "null",
             "string"
           ]
         },
-        "dunning_campaign_id": {
-          "type": [
-            "null"
-          ]
-        }
+        "dunning_campaign_id": {}
       }
     },
     "invoice": {
@@ -125,11 +113,7 @@
         }
       }
     },
-    "voided_by_invoice": {
-      "type": [
-        "null"
-      ]
-    },
+    "voided_by_invoice": {},
     "subscription_ids": {
       "type": [
         "null",
@@ -250,11 +234,7 @@
             "string"
           ]
         },
-        "phone": {
-          "type": [
-            "null"
-          ]
-        }
+        "phone": {}
       }
     },
     "collection_method": {
@@ -293,11 +273,7 @@
             "string"
           ]
         },
-        "cc_bin_country": {
-          "type": [
-            "null"
-          ]
-        },
+        "cc_bin_country": {},
         "exp_month": {
           "type": [
             "null",
@@ -392,11 +368,7 @@
         "string"
       ]
     },
-    "gateway_approval_code": {
-      "type": [
-        "null"
-      ]
-    },
+    "gateway_approval_code": {},
     "gateway_response_code": {
       "type": [
         "null",
@@ -421,11 +393,7 @@
             "string"
           ]
         },
-        "transaction_type": {
-          "type": [
-            "null"
-          ]
-        }
+        "transaction_type": {}
       }
     },
     "cvv_check": {

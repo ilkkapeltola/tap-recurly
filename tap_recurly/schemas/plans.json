@@ -162,16 +162,8 @@
         "object"
       ],
       "properties": {
-        "success_url": {
-          "type": [
-            "null"
-          ]
-        },
-        "cancel_url": {
-          "type": [
-            "null"
-          ]
-        },
+        "success_url": {},
+        "cancel_url": {},
         "bypass_confirmation": {
           "type": [
             "null",
@@ -198,16 +190,8 @@
         "string"
       ]
     },
-    "deleted_at": {
-      "type": [
-        "null"
-      ]
-    },
-    "dunning_campaign_id": {
-      "type": [
-        "null"
-      ]
-    },
+    "deleted_at": {},
+    "dunning_campaign_id": {},
     "pricing_model": {
       "type": [
         "null",

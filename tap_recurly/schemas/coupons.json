@@ -158,16 +158,8 @@
         "integer"
       ]
     },
-    "unique_code_template": {
-      "type": [
-        "null"
-      ]
-    },
-    "unique_coupon_code": {
-      "type": [
-        "null"
-      ]
-    },
+    "unique_code_template": {},
+    "unique_coupon_code": {},
     "plans": {
       "type": [
         "null",
@@ -206,11 +198,7 @@
         }
       }
     },
-    "items": {
-      "type": [
-        "null"
-      ]
-    },
+    "items": {},
     "redeem_by": {
       "type": [
         "null",

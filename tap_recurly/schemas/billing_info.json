@@ -46,11 +46,7 @@
         "string"
       ]
     },
-    "company": {
-      "type": [
-        "null"
-      ]
-    },
+    "company": {},
     "address": {
       "type": [
         "null",
@@ -93,18 +89,10 @@
             "string"
           ]
         },
-        "phone": {
-          "type": [
-            "null"
-          ]
-        }
+        "phone": {}
       }
     },
-    "vat_number": {
-      "type": [
-        "null"
-      ]
-    },
+    "vat_number": {},
     "valid": {
       "type": [
         "null",
@@ -141,11 +129,7 @@
             "string"
           ]
         },
-        "cc_bin_country": {
-          "type": [
-            "null"
-          ]
-        },
+        "cc_bin_country": {},
         "exp_month": {
           "type": [
             "null",
@@ -172,11 +156,7 @@
         }
       }
     },
-    "fraud": {
-      "type": [
-        "null"
-      ]
-    },
+    "fraud": {},
     "created_at": {
       "type": [
         "null",

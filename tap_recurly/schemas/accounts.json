@@ -22,11 +22,7 @@
         "string"
       ]
     },
-    "parent_account_id": {
-      "type": [
-        "null"
-      ]
-    },
+    "parent_account_id": {},
     "bill_to": {
       "type": [
         "null",
@@ -63,11 +59,7 @@
         "string"
       ]
     },
-    "preferred_time_zone": {
-      "type": [
-        "null"
-      ]
-    },
+    "preferred_time_zone": {},
     "first_name": {
       "type": [
         "null",
@@ -98,11 +90,7 @@
         "boolean"
       ]
     },
-    "exemption_certificate": {
-      "type": [
-        "null"
-      ]
-    },
+    "exemption_certificate": {},
     "address": {
       "type": [
         "null",
@@ -299,11 +287,7 @@
                 "string"
               ]
             },
-            "cc_bin_country": {
-              "type": [
-                "null"
-              ]
-            },
+            "cc_bin_country": {},
             "exp_month": {
               "type": [
                 "null",
@@ -330,11 +314,7 @@
             }
           }
         },
-        "fraud": {
-          "type": [
-            "null"
-          ]
-        },
+        "fraud": {},
         "created_at": {
           "type": [
             "null",
@@ -429,16 +409,8 @@
         "string"
       ]
     },
-    "dunning_campaign_id": {
-      "type": [
-        "null"
-      ]
-    },
-    "invoice_template_id": {
-      "type": [
-        "null"
-      ]
-    },
+    "dunning_campaign_id": {},
+    "invoice_template_id": {},
     "shipping_addresses": {
       "type": [
         "null",

@@ -58,34 +58,18 @@
             "string"
           ]
         },
-        "company": {
-          "type": [
-            "null"
-          ]
-        },
-        "parent_account_id": {
-          "type": [
-            "null"
-          ]
-        },
+        "company": {},
+        "parent_account_id": {},
         "bill_to": {
           "type": [
             "null",
             "string"
           ]
         },
-        "dunning_campaign_id": {
-          "type": [
-            "null"
-          ]
-        }
+        "dunning_campaign_id": {}
       }
     },
-    "subscription_id": {
-      "type": [
-        "null"
-      ]
-    },
+    "subscription_id": {},
     "coupon": {
       "type": [
         "null",
@@ -246,16 +230,8 @@
             "integer"
           ]
         },
-        "unique_code_template": {
-          "type": [
-            "null"
-          ]
-        },
-        "unique_coupon_code": {
-          "type": [
-            "null"
-          ]
-        },
+        "unique_code_template": {},
+        "unique_coupon_code": {},
         "plans": {
           "type": [
             "null",
@@ -294,11 +270,7 @@
             }
           }
         },
-        "items": {
-          "type": [
-            "null"
-          ]
-        },
+        "items": {},
         "redeem_by": {
           "type": [
             "null",
@@ -355,10 +327,6 @@
         "string"
       ]
     },
-    "removed_at": {
-      "type": [
-        "null"
-      ]
-    }
+    "removed_at": {}
   }
 }

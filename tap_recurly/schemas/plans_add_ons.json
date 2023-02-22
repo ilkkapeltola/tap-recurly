@@ -123,11 +123,7 @@
               "number"
             ]
           },
-          "unit_amount_decimal": {
-            "type": [
-              "null"
-            ]
-          }
+          "unit_amount_decimal": {}
         }
       }
     },
@@ -149,16 +145,8 @@
         "string"
       ]
     },
-    "item": {
-      "type": [
-        "null"
-      ]
-    },
-    "external_sku": {
-      "type": [
-        "null"
-      ]
-    },
+    "item": {},
+    "external_sku": {},
     "created_at": {
       "type": [
         "null",
@@ -171,10 +159,6 @@
         "string"
       ]
     },
-    "deleted_at": {
-      "type": [
-        "null"
-      ]
-    }
+    "deleted_at": {}
   }
 }
