@@ -123,7 +123,12 @@
               "number"
             ]
           },
-          "unit_amount_decimal": {}
+          "unit_amount_decimal": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
         }
       }
     },
@@ -145,8 +150,56 @@
         "string"
       ]
     },
-    "item": {},
-    "external_sku": {},
+    "item": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "object": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "code": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "external_sku": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "created_at": {
       "type": [
         "null",
@@ -159,6 +212,12 @@
         "string"
       ]
     },
-    "deleted_at": {}
+    "deleted_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    }
   }
 }

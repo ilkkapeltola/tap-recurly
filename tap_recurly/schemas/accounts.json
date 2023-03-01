@@ -22,7 +22,12 @@
         "string"
       ]
     },
-    "parent_account_id": {},
+    "parent_account_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "bill_to": {
       "type": [
         "null",
@@ -59,7 +64,12 @@
         "string"
       ]
     },
-    "preferred_time_zone": {},
+    "preferred_time_zone": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "first_name": {
       "type": [
         "null",
@@ -90,7 +100,12 @@
         "boolean"
       ]
     },
-    "exemption_certificate": {},
+    "exemption_certificate": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "address": {
       "type": [
         "null",
@@ -287,7 +302,12 @@
                 "string"
               ]
             },
-            "cc_bin_country": {},
+            "cc_bin_country": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
             "exp_month": {
               "type": [
                 "null",
@@ -314,7 +334,32 @@
             }
           }
         },
-        "fraud": {},
+        "fraud": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "score": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "decision": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "risk_rules_triggered": {
+              "type": [
+                "null",
+                "object"
+              ]
+            }
+          }
+        },
         "created_at": {
           "type": [
             "null",
@@ -409,8 +454,18 @@
         "string"
       ]
     },
-    "dunning_campaign_id": {},
-    "invoice_template_id": {},
+    "dunning_campaign_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoice_template_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "shipping_addresses": {
       "type": [
         "null",
@@ -538,7 +593,26 @@
         "null",
         "array"
       ],
-      "items": {}
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
     }
   }
 }

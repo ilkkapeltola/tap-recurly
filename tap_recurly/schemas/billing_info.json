@@ -46,7 +46,12 @@
         "string"
       ]
     },
-    "company": {},
+    "company": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "address": {
       "type": [
         "null",
@@ -89,10 +94,20 @@
             "string"
           ]
         },
-        "phone": {}
+        "phone": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
       }
     },
-    "vat_number": {},
+    "vat_number": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "valid": {
       "type": [
         "null",
@@ -129,7 +144,12 @@
             "string"
           ]
         },
-        "cc_bin_country": {},
+        "cc_bin_country": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "exp_month": {
           "type": [
             "null",
@@ -156,7 +176,32 @@
         }
       }
     },
-    "fraud": {},
+    "fraud": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "properties": {
+        "score": {
+          "type": [
+            "null",
+            "integer"
+          ]
+        },
+        "decision": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "risk_rules_triggered": {
+          "type": [
+            "null",
+            "object"
+          ]
+        }
+      }
+    },
     "created_at": {
       "type": [
         "null",

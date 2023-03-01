@@ -70,17 +70,32 @@
             "string"
           ]
         },
-        "parent_account_id": {},
+        "parent_account_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "bill_to": {
           "type": [
             "null",
             "string"
           ]
         },
-        "dunning_campaign_id": {}
+        "dunning_campaign_id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
       }
     },
-    "billing_info_id": {},
+    "billing_info_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "active_invoice_id": {
       "type": [
         "null",
@@ -137,8 +152,156 @@
             "string"
           ]
         },
-        "address": {},
-        "method": {},
+        "address": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "object": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "account_id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "nickname": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "first_name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "last_name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "company": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "email": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "vat_number": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "phone": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "street1": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "street2": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "city": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "region": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "postal_code": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "country": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "created_at": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "date-time"
+            },
+            "updated_at": {
+              "type": [
+                "null",
+                "string"
+              ],
+              "format": "date-time"
+            }
+          }
+        },
+        "method": {
+          "type": [
+            "null",
+            "object"
+          ],
+          "properties": {
+            "id": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "object": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "code": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "name": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          }
+        },
         "amount": {
           "type": [
             "null",
@@ -322,7 +485,33 @@
             "null",
             "array"
           ],
-          "items": {}
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "starting_billing_cycle": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "remaining_billing_cycles": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "unit_amount": {
+                "type": [
+                  "null",
+                  "number"
+                ],
+                "format": "float"
+              }
+            }
+          }
         },
         "unit_amount": {
           "type": [
@@ -336,7 +525,32 @@
             "string"
           ]
         },
-        "custom_fields": {},
+        "custom_fields": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "value": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            }
+          }
+        },
         "quantity": {
           "type": [
             "null",
@@ -355,8 +569,156 @@
                 "string"
               ]
             },
-            "address": {},
-            "method": {},
+            "address": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "object": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "account_id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "nickname": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "first_name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "last_name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "company": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "email": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "vat_number": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "phone": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "street1": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "street2": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "city": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "region": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "postal_code": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "country": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "created_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "updated_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                }
+              }
+            },
+            "method": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "object": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "code": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "name": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            },
             "amount": {
               "type": [
                 "null",
@@ -389,7 +751,4878 @@
                 "string"
               ]
             },
-            "charge_invoice": {}
+            "charge_invoice": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "uuid": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "object": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "origin": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "state": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "account": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "object": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "code": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "email": {
+                      "type": [
+                        "null",
+                        "string"
+                      ],
+                      "format": "email"
+                    },
+                    "first_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "last_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "company": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "parent_account_id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "bill_to": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "dunning_campaign_id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                },
+                "billing_info_id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "subscription_ids": {
+                  "type": [
+                    "null",
+                    "array"
+                  ],
+                  "items": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  }
+                },
+                "previous_invoice_id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "number": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "collection_method": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "po_number": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "net_terms": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                },
+                "address": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "phone": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "street1": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "street2": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "city": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "region": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "postal_code": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "country": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                },
+                "shipping_address": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "object": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "account_id": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "nickname": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "first_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "last_name": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "company": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "email": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "vat_number": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "phone": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "street1": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "street2": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "city": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "region": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "postal_code": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "country": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "created_at": {
+                      "type": [
+                        "null",
+                        "string"
+                      ],
+                      "format": "date-time"
+                    },
+                    "updated_at": {
+                      "type": [
+                        "null",
+                        "string"
+                      ],
+                      "format": "date-time"
+                    }
+                  }
+                },
+                "currency": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "discount": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "subtotal": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "tax": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "total": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "refundable_amount": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "paid": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "balance": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "tax_info": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "type": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "region": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "rate": {
+                      "type": [
+                        "null",
+                        "number"
+                      ],
+                      "format": "float"
+                    },
+                    "tax_details": {
+                      "type": [
+                        "null",
+                        "array"
+                      ],
+                      "items": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "region": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "rate": {
+                            "type": [
+                              "null",
+                              "number"
+                            ],
+                            "format": "float"
+                          },
+                          "tax": {
+                            "type": [
+                              "null",
+                              "number"
+                            ],
+                            "format": "float"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "vat_number": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "vat_reverse_charge_notes": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "terms_and_conditions": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "customer_notes": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "line_items": {
+                  "type": [
+                    "null",
+                    "array"
+                  ],
+                  "items": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "object": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "uuid": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "type": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "item_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "item_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "external_sku": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "revenue_schedule_type": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "state": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "legacy_category": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "account": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "email"
+                          },
+                          "first_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "company": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "parent_account_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "bill_to": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "dunning_campaign_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "bill_for_account_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "subscription_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "plan_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "plan_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "add_on_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "add_on_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "invoice_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "invoice_number": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "previous_line_item_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "original_line_item_invoice_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "origin": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "accounting_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "product_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "credit_reason_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "currency": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "amount": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "description": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "quantity": {
+                        "type": [
+                          "null",
+                          "integer"
+                        ]
+                      },
+                      "quantity_decimal": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "unit_amount": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "unit_amount_decimal": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "tax_inclusive": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "subtotal": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "discount": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "tax": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "taxable": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "tax_exempt": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "avalara_transaction_type": {
+                        "type": [
+                          "null",
+                          "integer"
+                        ]
+                      },
+                      "avalara_service_type": {
+                        "type": [
+                          "null",
+                          "integer"
+                        ]
+                      },
+                      "tax_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "tax_info": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "region": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "rate": {
+                            "type": [
+                              "null",
+                              "number"
+                            ],
+                            "format": "float"
+                          },
+                          "tax_details": {
+                            "type": [
+                              "null",
+                              "array"
+                            ],
+                            "items": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "region": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "rate": {
+                                  "type": [
+                                    "null",
+                                    "number"
+                                  ],
+                                  "format": "float"
+                                },
+                                "tax": {
+                                  "type": [
+                                    "null",
+                                    "number"
+                                  ],
+                                  "format": "float"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "proration_rate": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "refund": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "refunded_quantity": {
+                        "type": [
+                          "null",
+                          "integer"
+                        ]
+                      },
+                      "refunded_quantity_decimal": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "credit_applied": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "shipping_address": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "account_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "nickname": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "first_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "company": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "vat_number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "phone": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "street1": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "street2": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "city": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "region": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "postal_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "country": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "created_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          },
+                          "updated_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "start_date": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "end_date": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "custom_fields": {
+                        "type": [
+                          "null",
+                          "array"
+                        ],
+                        "items": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "value": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      "created_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "updated_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      }
+                    }
+                  }
+                },
+                "has_more_line_items": {
+                  "type": [
+                    "null",
+                    "boolean"
+                  ]
+                },
+                "transactions": {
+                  "type": [
+                    "null",
+                    "array"
+                  ],
+                  "items": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "object": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "uuid": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "original_transaction_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "account": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "email"
+                          },
+                          "first_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "company": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "parent_account_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "bill_to": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "dunning_campaign_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "invoice": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "state": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "voided_by_invoice": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "state": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "subscription_ids": {
+                        "type": [
+                          "null",
+                          "array"
+                        ],
+                        "items": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      },
+                      "type": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "origin": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "currency": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "amount": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "status": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "success": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "backup_payment_method_used": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "refunded": {
+                        "type": [
+                          "null",
+                          "boolean"
+                        ]
+                      },
+                      "billing_address": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "phone": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "street1": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "street2": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "city": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "region": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "postal_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "country": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "collection_method": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "payment_method": {
+                        "properties": {
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "card_type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "first_six": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_four": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_two": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "exp_month": {
+                            "type": [
+                              "null",
+                              "integer"
+                            ]
+                          },
+                          "exp_year": {
+                            "type": [
+                              "null",
+                              "integer"
+                            ]
+                          },
+                          "gateway_token": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "cc_bin_country": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "gateway_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "billing_agreement_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "name_on_account": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "account_type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "routing_number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "routing_number_bank": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "username": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "ip_address_v4": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "ip_address_country": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "status_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "status_message": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "customer_message": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "customer_message_locale": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "payment_gateway": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "gateway_message": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "gateway_reference": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "gateway_approval_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "gateway_response_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "gateway_response_time": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "gateway_response_values": {
+                        "type": [
+                          "null",
+                          "object"
+                        ]
+                      },
+                      "cvv_check": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "avs_check": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "created_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "updated_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "voided_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "collected_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      }
+                    }
+                  }
+                },
+                "credit_payments": {
+                  "type": [
+                    "null",
+                    "array"
+                  ],
+                  "items": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "object": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "uuid": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "action": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "account": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "email": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "email"
+                          },
+                          "first_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "last_name": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "company": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "parent_account_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "bill_to": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "dunning_campaign_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "applied_to_invoice": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "state": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "original_invoice": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "number": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "state": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        }
+                      },
+                      "currency": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "amount": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "original_credit_payment_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "refund_transaction": {
+                        "type": [
+                          "null",
+                          "object"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "object": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "uuid": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "original_transaction_id": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "account": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "object": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "code": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "email": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ],
+                                "format": "email"
+                              },
+                              "first_name": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "last_name": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "company": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "parent_account_id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "bill_to": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "dunning_campaign_id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "invoice": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "object": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "number": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "type": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "state": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "voided_by_invoice": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "object": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "number": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "type": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "state": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "subscription_ids": {
+                            "type": [
+                              "null",
+                              "array"
+                            ],
+                            "items": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          },
+                          "type": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "origin": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "currency": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "amount": {
+                            "type": [
+                              "null",
+                              "number"
+                            ],
+                            "format": "float"
+                          },
+                          "status": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "success": {
+                            "type": [
+                              "null",
+                              "boolean"
+                            ]
+                          },
+                          "backup_payment_method_used": {
+                            "type": [
+                              "null",
+                              "boolean"
+                            ]
+                          },
+                          "refunded": {
+                            "type": [
+                              "null",
+                              "boolean"
+                            ]
+                          },
+                          "billing_address": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "phone": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "street1": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "street2": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "city": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "region": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "postal_code": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "country": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "collection_method": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "payment_method": {
+                            "properties": {
+                              "object": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "card_type": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "first_six": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "last_four": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "last_two": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "exp_month": {
+                                "type": [
+                                  "null",
+                                  "integer"
+                                ]
+                              },
+                              "exp_year": {
+                                "type": [
+                                  "null",
+                                  "integer"
+                                ]
+                              },
+                              "gateway_token": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "cc_bin_country": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "gateway_code": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "billing_agreement_id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "name_on_account": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "account_type": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "routing_number": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "routing_number_bank": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "username": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "ip_address_v4": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "ip_address_country": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "status_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "status_message": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "customer_message": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "customer_message_locale": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "payment_gateway": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "id": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "object": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "type": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "name": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          },
+                          "gateway_message": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "gateway_reference": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "gateway_approval_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "gateway_response_code": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "gateway_response_time": {
+                            "type": [
+                              "null",
+                              "number"
+                            ],
+                            "format": "float"
+                          },
+                          "gateway_response_values": {
+                            "type": [
+                              "null",
+                              "object"
+                            ]
+                          },
+                          "cvv_check": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "avs_check": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          },
+                          "created_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          },
+                          "updated_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          },
+                          "voided_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          },
+                          "collected_at": {
+                            "type": [
+                              "null",
+                              "string"
+                            ],
+                            "format": "date-time"
+                          }
+                        }
+                      },
+                      "created_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "updated_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "voided_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      }
+                    }
+                  }
+                },
+                "created_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "updated_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "due_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "closed_at": {
+                  "type": [
+                    "null",
+                    "string"
+                  ],
+                  "format": "date-time"
+                },
+                "dunning_campaign_id": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "dunning_events_sent": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                },
+                "final_dunning_event": {
+                  "type": [
+                    "null",
+                    "boolean"
+                  ]
+                }
+              }
+            },
+            "credit_invoices": {
+              "type": [
+                "null",
+                "array"
+              ],
+              "items": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "uuid": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "object": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "origin": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "state": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "account": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "object": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "email": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "email"
+                      },
+                      "first_name": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "last_name": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "company": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "parent_account_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "bill_to": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "dunning_campaign_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      }
+                    }
+                  },
+                  "billing_info_id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "subscription_ids": {
+                    "type": [
+                      "null",
+                      "array"
+                    ],
+                    "items": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  },
+                  "previous_invoice_id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "number": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "collection_method": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "po_number": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "net_terms": {
+                    "type": [
+                      "null",
+                      "integer"
+                    ]
+                  },
+                  "address": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "phone": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "street1": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "street2": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "city": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "region": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "postal_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "country": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      }
+                    }
+                  },
+                  "shipping_address": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "object": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "account_id": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "nickname": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "first_name": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "last_name": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "company": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "email": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "vat_number": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "phone": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "street1": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "street2": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "city": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "region": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "postal_code": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "country": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "created_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      },
+                      "updated_at": {
+                        "type": [
+                          "null",
+                          "string"
+                        ],
+                        "format": "date-time"
+                      }
+                    }
+                  },
+                  "currency": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "discount": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "subtotal": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "tax": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "total": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "refundable_amount": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "paid": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "balance": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "tax_info": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "type": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "region": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      },
+                      "rate": {
+                        "type": [
+                          "null",
+                          "number"
+                        ],
+                        "format": "float"
+                      },
+                      "tax_details": {
+                        "type": [
+                          "null",
+                          "array"
+                        ],
+                        "items": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "region": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "rate": {
+                              "type": [
+                                "null",
+                                "number"
+                              ],
+                              "format": "float"
+                            },
+                            "tax": {
+                              "type": [
+                                "null",
+                                "number"
+                              ],
+                              "format": "float"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "vat_number": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "vat_reverse_charge_notes": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "terms_and_conditions": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "customer_notes": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "line_items": {
+                    "type": [
+                      "null",
+                      "array"
+                    ],
+                    "items": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "object": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "uuid": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "type": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "item_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "item_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "external_sku": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "revenue_schedule_type": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "state": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "legacy_category": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "account": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "email": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "email"
+                            },
+                            "first_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "company": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "parent_account_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "bill_to": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "dunning_campaign_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "bill_for_account_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "subscription_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "plan_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "plan_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "add_on_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "add_on_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "invoice_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "invoice_number": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "previous_line_item_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "original_line_item_invoice_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "origin": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "accounting_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "product_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "credit_reason_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "currency": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "amount": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "description": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "quantity": {
+                          "type": [
+                            "null",
+                            "integer"
+                          ]
+                        },
+                        "quantity_decimal": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "unit_amount": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "unit_amount_decimal": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "tax_inclusive": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "subtotal": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "discount": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "tax": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "taxable": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "tax_exempt": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "avalara_transaction_type": {
+                          "type": [
+                            "null",
+                            "integer"
+                          ]
+                        },
+                        "avalara_service_type": {
+                          "type": [
+                            "null",
+                            "integer"
+                          ]
+                        },
+                        "tax_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "tax_info": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "region": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "rate": {
+                              "type": [
+                                "null",
+                                "number"
+                              ],
+                              "format": "float"
+                            },
+                            "tax_details": {
+                              "type": [
+                                "null",
+                                "array"
+                              ],
+                              "items": {
+                                "type": [
+                                  "null",
+                                  "object"
+                                ],
+                                "properties": {
+                                  "type": {
+                                    "type": [
+                                      "null",
+                                      "string"
+                                    ]
+                                  },
+                                  "region": {
+                                    "type": [
+                                      "null",
+                                      "string"
+                                    ]
+                                  },
+                                  "rate": {
+                                    "type": [
+                                      "null",
+                                      "number"
+                                    ],
+                                    "format": "float"
+                                  },
+                                  "tax": {
+                                    "type": [
+                                      "null",
+                                      "number"
+                                    ],
+                                    "format": "float"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "proration_rate": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "refund": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "refunded_quantity": {
+                          "type": [
+                            "null",
+                            "integer"
+                          ]
+                        },
+                        "refunded_quantity_decimal": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "credit_applied": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "shipping_address": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "account_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "nickname": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "first_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "company": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "email": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "vat_number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "phone": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "street1": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "street2": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "city": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "region": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "postal_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "country": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "created_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            },
+                            "updated_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            }
+                          }
+                        },
+                        "start_date": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "end_date": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "custom_fields": {
+                          "type": [
+                            "null",
+                            "array"
+                          ],
+                          "items": {
+                            "type": [
+                              "null",
+                              "object"
+                            ],
+                            "properties": {
+                              "name": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              },
+                              "value": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        "created_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "updated_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        }
+                      }
+                    }
+                  },
+                  "has_more_line_items": {
+                    "type": [
+                      "null",
+                      "boolean"
+                    ]
+                  },
+                  "transactions": {
+                    "type": [
+                      "null",
+                      "array"
+                    ],
+                    "items": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "object": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "uuid": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "original_transaction_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "account": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "email": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "email"
+                            },
+                            "first_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "company": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "parent_account_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "bill_to": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "dunning_campaign_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "invoice": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "state": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "voided_by_invoice": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "state": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "subscription_ids": {
+                          "type": [
+                            "null",
+                            "array"
+                          ],
+                          "items": {
+                            "type": [
+                              "null",
+                              "string"
+                            ]
+                          }
+                        },
+                        "type": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "origin": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "currency": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "amount": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "status": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "success": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "backup_payment_method_used": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "refunded": {
+                          "type": [
+                            "null",
+                            "boolean"
+                          ]
+                        },
+                        "billing_address": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "phone": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "street1": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "street2": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "city": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "region": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "postal_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "country": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "collection_method": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "payment_method": {
+                          "properties": {
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "card_type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "first_six": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_four": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_two": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "exp_month": {
+                              "type": [
+                                "null",
+                                "integer"
+                              ]
+                            },
+                            "exp_year": {
+                              "type": [
+                                "null",
+                                "integer"
+                              ]
+                            },
+                            "gateway_token": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "cc_bin_country": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "gateway_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "billing_agreement_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "name_on_account": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "account_type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "routing_number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "routing_number_bank": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "username": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "ip_address_v4": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "ip_address_country": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "status_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "status_message": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "customer_message": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "customer_message_locale": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "payment_gateway": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "gateway_message": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "gateway_reference": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "gateway_approval_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "gateway_response_code": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "gateway_response_time": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "gateway_response_values": {
+                          "type": [
+                            "null",
+                            "object"
+                          ]
+                        },
+                        "cvv_check": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "avs_check": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "created_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "updated_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "voided_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "collected_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        }
+                      }
+                    }
+                  },
+                  "credit_payments": {
+                    "type": [
+                      "null",
+                      "array"
+                    ],
+                    "items": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "object": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "uuid": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "action": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "account": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "email": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "email"
+                            },
+                            "first_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "last_name": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "company": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "parent_account_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "bill_to": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "dunning_campaign_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "applied_to_invoice": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "state": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "original_invoice": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "number": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "state": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            }
+                          }
+                        },
+                        "currency": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "amount": {
+                          "type": [
+                            "null",
+                            "number"
+                          ],
+                          "format": "float"
+                        },
+                        "original_credit_payment_id": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "refund_transaction": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "object": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "uuid": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "original_transaction_id": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "account": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "object": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "code": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "email": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ],
+                                  "format": "email"
+                                },
+                                "first_name": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "last_name": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "company": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "parent_account_id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "bill_to": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "dunning_campaign_id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "invoice": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "object": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "number": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "state": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "voided_by_invoice": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "object": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "number": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "state": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "subscription_ids": {
+                              "type": [
+                                "null",
+                                "array"
+                              ],
+                              "items": {
+                                "type": [
+                                  "null",
+                                  "string"
+                                ]
+                              }
+                            },
+                            "type": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "origin": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "currency": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "amount": {
+                              "type": [
+                                "null",
+                                "number"
+                              ],
+                              "format": "float"
+                            },
+                            "status": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "success": {
+                              "type": [
+                                "null",
+                                "boolean"
+                              ]
+                            },
+                            "backup_payment_method_used": {
+                              "type": [
+                                "null",
+                                "boolean"
+                              ]
+                            },
+                            "refunded": {
+                              "type": [
+                                "null",
+                                "boolean"
+                              ]
+                            },
+                            "billing_address": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "phone": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "street1": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "street2": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "city": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "region": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "postal_code": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "country": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "collection_method": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "payment_method": {
+                              "properties": {
+                                "object": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "card_type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "first_six": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "last_four": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "last_two": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "exp_month": {
+                                  "type": [
+                                    "null",
+                                    "integer"
+                                  ]
+                                },
+                                "exp_year": {
+                                  "type": [
+                                    "null",
+                                    "integer"
+                                  ]
+                                },
+                                "gateway_token": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "cc_bin_country": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "gateway_code": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "billing_agreement_id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "name_on_account": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "account_type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "routing_number": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "routing_number_bank": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "username": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "ip_address_v4": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "ip_address_country": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "status_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "status_message": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "customer_message": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "customer_message_locale": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "payment_gateway": {
+                              "type": [
+                                "null",
+                                "object"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "object": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "type": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                },
+                                "name": {
+                                  "type": [
+                                    "null",
+                                    "string"
+                                  ]
+                                }
+                              }
+                            },
+                            "gateway_message": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "gateway_reference": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "gateway_approval_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "gateway_response_code": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "gateway_response_time": {
+                              "type": [
+                                "null",
+                                "number"
+                              ],
+                              "format": "float"
+                            },
+                            "gateway_response_values": {
+                              "type": [
+                                "null",
+                                "object"
+                              ]
+                            },
+                            "cvv_check": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "avs_check": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "created_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            },
+                            "updated_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            },
+                            "voided_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            },
+                            "collected_at": {
+                              "type": [
+                                "null",
+                                "string"
+                              ],
+                              "format": "date-time"
+                            }
+                          }
+                        },
+                        "created_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "updated_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        },
+                        "voided_at": {
+                          "type": [
+                            "null",
+                            "string"
+                          ],
+                          "format": "date-time"
+                        }
+                      }
+                    }
+                  },
+                  "created_at": {
+                    "type": [
+                      "null",
+                      "string"
+                    ],
+                    "format": "date-time"
+                  },
+                  "updated_at": {
+                    "type": [
+                      "null",
+                      "string"
+                    ],
+                    "format": "date-time"
+                  },
+                  "due_at": {
+                    "type": [
+                      "null",
+                      "string"
+                    ],
+                    "format": "date-time"
+                  },
+                  "closed_at": {
+                    "type": [
+                      "null",
+                      "string"
+                    ],
+                    "format": "date-time"
+                  },
+                  "dunning_campaign_id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "dunning_events_sent": {
+                    "type": [
+                      "null",
+                      "integer"
+                    ]
+                  },
+                  "final_dunning_event": {
+                    "type": [
+                      "null",
+                      "boolean"
+                    ]
+                  }
+                }
+              }
+            }
           }
         },
         "created_at": {
@@ -404,9 +5637,264 @@
             "string"
           ]
         },
-        "deleted_at": {},
-        "add_ons": {},
-        "invoice_collection": {}
+        "deleted_at": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+        },
+        "add_ons": {
+          "type": [
+            "null",
+            "array"
+          ],
+          "items": {
+            "type": [
+              "null",
+              "object"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "object": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "subscription_id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "add_on": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "object": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "code": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "name": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "add_on_type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "usage_type": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "usage_percentage": {
+                    "type": [
+                      "null",
+                      "number"
+                    ],
+                    "format": "float"
+                  },
+                  "measured_unit_id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "item_id": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "external_sku": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "accounting_code": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  }
+                }
+              },
+              "add_on_source": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "quantity": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "unit_amount": {
+                "type": [
+                  "null",
+                  "number"
+                ],
+                "format": "float"
+              },
+              "unit_amount_decimal": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "decimal"
+              },
+              "revenue_schedule_type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "tier_type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "usage_calculation_type": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "usage_timeframe": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "tiers": {
+                "type": [
+                  "null",
+                  "array"
+                ],
+                "items": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "ending_quantity": {
+                      "type": [
+                        "null",
+                        "integer"
+                      ]
+                    },
+                    "unit_amount": {
+                      "type": [
+                        "null",
+                        "number"
+                      ],
+                      "format": "float"
+                    },
+                    "unit_amount_decimal": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    },
+                    "usage_percentage": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                }
+              },
+              "percentage_tiers": {
+                "type": [
+                  "null",
+                  "array"
+                ],
+                "items": {
+                  "type": [
+                    "null",
+                    "object"
+                  ],
+                  "properties": {
+                    "ending_amount": {
+                      "type": [
+                        "null",
+                        "number"
+                      ],
+                      "format": "float"
+                    },
+                    "usage_percentage": {
+                      "type": [
+                        "null",
+                        "string"
+                      ]
+                    }
+                  }
+                }
+              },
+              "usage_percentage": {
+                "type": [
+                  "null",
+                  "number"
+                ],
+                "format": "float"
+              },
+              "created_at": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "date-time"
+              },
+              "updated_at": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "date-time"
+              },
+              "expired_at": {
+                "type": [
+                  "null",
+                  "string"
+                ],
+                "format": "date-time"
+              }
+            }
+          }
+        }
       }
     },
     "ramp_intervals": {
@@ -414,7 +5902,33 @@
         "null",
         "array"
       ],
-      "items": {}
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "starting_billing_cycle": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "remaining_billing_cycles": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_amount": {
+            "type": [
+              "null",
+              "number"
+            ],
+            "format": "float"
+          }
+        }
+      }
     },
     "current_period_started_at": {
       "type": [
@@ -440,8 +5954,20 @@
         "string"
       ]
     },
-    "trial_started_at": {},
-    "trial_ends_at": {},
+    "trial_started_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "trial_ends_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
     "remaining_billing_cycles": {
       "type": [
         "null",
@@ -472,15 +5998,31 @@
         "boolean"
       ]
     },
-    "paused_at": {},
-    "remaining_pause_cycles": {},
+    "paused_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "remaining_pause_cycles": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
     "currency": {
       "type": [
         "null",
         "string"
       ]
     },
-    "tax_inclusive": {},
+    "tax_inclusive": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
     "unit_amount": {
       "type": [
         "null",
@@ -541,8 +6083,19 @@
         "string"
       ]
     },
-    "bank_account_authorized_at": {},
-    "gateway_code": {},
+    "bank_account_authorized_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "gateway_code": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "started_with_gift": {
       "type": [
         "null",
@@ -585,7 +6138,26 @@
         "null",
         "array"
       ],
-      "items": {}
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
     },
     "tax": {
       "type": [
@@ -702,8 +6274,18 @@
                   "string"
                 ]
               },
-              "item_id": {},
-              "external_sku": {},
+              "item_id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "external_sku": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
               "accounting_code": {
                 "type": [
                   "null",
@@ -730,7 +6312,13 @@
               "number"
             ]
           },
-          "unit_amount_decimal": {},
+          "unit_amount_decimal": {
+            "type": [
+              "null",
+              "string"
+            ],
+            "format": "decimal"
+          },
           "usage_percentage": {
             "type": [
               "null",
@@ -779,8 +6367,72 @@
               "string"
             ]
           },
-          "percentage_tiers": {},
-          "tiers": {}
+          "percentage_tiers": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "ending_amount": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "usage_percentage": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          },
+          "tiers": {
+            "type": [
+              "null",
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "ending_quantity": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                },
+                "unit_amount": {
+                  "type": [
+                    "null",
+                    "number"
+                  ],
+                  "format": "float"
+                },
+                "unit_amount_decimal": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "usage_percentage": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                }
+              }
+            }
+          }
         }
       }
     }

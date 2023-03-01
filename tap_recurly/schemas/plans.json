@@ -162,8 +162,18 @@
         "object"
       ],
       "properties": {
-        "success_url": {},
-        "cancel_url": {},
+        "success_url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "cancel_url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
         "bypass_confirmation": {
           "type": [
             "null",
@@ -190,8 +200,19 @@
         "string"
       ]
     },
-    "deleted_at": {},
-    "dunning_campaign_id": {},
+    "deleted_at": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "dunning_campaign_id": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
     "pricing_model": {
       "type": [
         "null",
