@@ -164,12 +164,14 @@
       "properties": {
         "success_url": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "cancel_url": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "bypass_confirmation": {
@@ -200,12 +202,15 @@
     },
     "deleted_at": {
       "type": [
-        "null"
-      ]
+        "null",
+        "string"
+      ],
+      "format": "date-time"
     },
     "dunning_campaign_id": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "pricing_model": {

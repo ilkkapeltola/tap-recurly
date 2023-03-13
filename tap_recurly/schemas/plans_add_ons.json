@@ -125,7 +125,8 @@
           },
           "unit_amount_decimal": {
             "type": [
-              "null"
+              "null",
+              "string"
             ]
           }
         }
@@ -151,12 +152,52 @@
     },
     "item": {
       "type": [
-        "null"
-      ]
+        "null",
+        "object"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "object": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "code": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "name": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "description": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
     },
     "external_sku": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "created_at": {
@@ -173,8 +214,10 @@
     },
     "deleted_at": {
       "type": [
-        "null"
-      ]
+        "null",
+        "string"
+      ],
+      "format": "date-time"
     }
   }
 }

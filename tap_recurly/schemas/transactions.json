@@ -66,12 +66,14 @@
         },
         "company": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "parent_account_id": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "bill_to": {
@@ -82,7 +84,8 @@
         },
         "dunning_campaign_id": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         }
       }
@@ -127,8 +130,41 @@
     },
     "voided_by_invoice": {
       "type": [
-        "null"
-      ]
+        "null",
+        "object"
+      ],
+      "properties": {
+        "id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "object": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "number": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "type": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "state": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
     },
     "subscription_ids": {
       "type": [
@@ -252,7 +288,8 @@
         },
         "phone": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         }
       }
@@ -295,7 +332,8 @@
         },
         "cc_bin_country": {
           "type": [
-            "null"
+            "null",
+            "string"
           ]
         },
         "exp_month": {
@@ -394,7 +432,8 @@
     },
     "gateway_approval_code": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "gateway_response_code": {
@@ -421,11 +460,7 @@
             "string"
           ]
         },
-        "transaction_type": {
-          "type": [
-            "null"
-          ]
-        }
+        "transaction_type": {}
       }
     },
     "cvv_check": {

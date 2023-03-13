@@ -24,7 +24,8 @@
     },
     "parent_account_id": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "bill_to": {
@@ -65,7 +66,8 @@
     },
     "preferred_time_zone": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "first_name": {
@@ -100,7 +102,8 @@
     },
     "exemption_certificate": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "address": {
@@ -301,7 +304,8 @@
             },
             "cc_bin_country": {
               "type": [
-                "null"
+                "null",
+                "string"
               ]
             },
             "exp_month": {
@@ -332,8 +336,29 @@
         },
         "fraud": {
           "type": [
-            "null"
-          ]
+            "null",
+            "object"
+          ],
+          "properties": {
+            "score": {
+              "type": [
+                "null",
+                "integer"
+              ]
+            },
+            "decision": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "risk_rules_triggered": {
+              "type": [
+                "null",
+                "object"
+              ]
+            }
+          }
         },
         "created_at": {
           "type": [
@@ -431,12 +456,14 @@
     },
     "dunning_campaign_id": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "invoice_template_id": {
       "type": [
-        "null"
+        "null",
+        "string"
       ]
     },
     "shipping_addresses": {
@@ -566,7 +593,26 @@
         "null",
         "array"
       ],
-      "items": {}
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      }
     }
   }
 }
